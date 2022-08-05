@@ -5,9 +5,8 @@ public class CreditPayService {
 
         double step = Math.pow(1 + percent, mon);
 
-        double pay = sum * ((percent * step) / (step - 1));
-
-        return pay;
+        return sum * ((percent * step) / (step - 1));
+        
     }
 }
 
