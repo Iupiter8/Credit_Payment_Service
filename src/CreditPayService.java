@@ -6,7 +6,7 @@ public class CreditPayService {
         double step = Math.pow(1 + percent, mon);
 
         return sum * ((percent * step) / (step - 1));
-        
+
     }
 }
 
